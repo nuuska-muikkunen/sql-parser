@@ -1,0 +1,1 @@
+[author.name, count(book.id), sum(book.cost) ]

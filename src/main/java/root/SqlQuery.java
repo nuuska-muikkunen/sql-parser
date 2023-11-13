@@ -5,7 +5,11 @@ import root.keywords.Source;
 import root.keywords.Join;
 import root.keywords.WhereClause;
 import root.keywords.Sort;
+import lombok.Setter;
+import lombok.Getter;
 
+@Setter
+@Getter
 public class SqlQuery {
     private List<String> columns;
     private List<Source> fromSources;
@@ -15,5 +19,4 @@ public class SqlQuery {
     private List<Sort> sortColumns;
     private Integer limit;
     private Integer offset;
-
 }
